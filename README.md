@@ -9,6 +9,7 @@ Bridge services that form the Agothe brain's neural bands.
 | brain_visualizer | 5562 | Real-time brain state HUD |
 | quantum_bridge | 5564 | Quantum reasoning layer |
 | consistency_checker | 5575 | Logical consistency validator |
+| omega_field_monitor | 5603 | Emergent intent / Orric point detector |
 
 ## Start all services
 ```bash
@@ -17,4 +18,5 @@ python notion_bridge.py &
 python brain_visualizer_server.py &
 python quantum_bridge.py &
 python consistency_checker.py &
+python omega_field_monitor.py &
 ```

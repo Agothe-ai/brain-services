@@ -50,6 +50,7 @@ SERVICE_REGISTRY = {
     "valence_engine": {"port": 5600, "url": "http://127.0.0.1:5600/health"},
     "empathic_model": {"port": 5601, "url": "http://127.0.0.1:5601/health"},
     "affect_reward_hub": {"port": 5602, "url": "http://127.0.0.1:5602/health"},
+    "omega_field_monitor": {"port": 5603, "url": "http://127.0.0.1:5603/health"},
     "qdrant": {"port": 6333, "url": "http://127.0.0.1:6333/collections"},
     "ollama": {"port": 11434, "url": "http://127.0.0.1:11434/api/tags"},
     "openhands": {"port": 3000, "url": "http://127.0.0.1:3000"},
@@ -89,6 +90,7 @@ LAYER_DEFINITIONS = {
     "L72": {"name": "Rhythm Detection", "band": 7, "port": 5579, "status": "planned"},
     "L75": {"name": "Anticipatory Processing", "band": 7, "port": None, "status": "planned"},
     "L76": {"name": "Mortality Awareness", "band": 7, "port": None, "status": "planned"},
+    "L88": {"name": "Emergent Intent Detection", "band": 9, "port": 5603, "status": "planned"},
 }
 
 
